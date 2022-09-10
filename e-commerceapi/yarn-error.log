@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add mongoose
+
+PATH: 
+  C:\Users\Kushal\anaconda3;C:\Users\Kushal\anaconda3\Library\mingw-w64\bin;C:\Users\Kushal\anaconda3\Library\usr\bin;C:\Users\Kushal\anaconda3\Library\bin;C:\Users\Kushal\anaconda3\Scripts;C:\Users\Kushal\anaconda3\bin;C:\Users\Kushal\anaconda3\condabin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\java;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\dotnet;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\Kushal\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Kushal\AppData\Local\Programs\Python\Python39;C:\Users\Kushal\Desktop\Scripts;C:\Users\Kushal\Desktop;C:\Users\Kushal\AppData\Local\Microsoft\WindowsApps;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\Kushal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Kushal\AppData\Local\atom\bin;C:\Users\Kushal\anaconda3\Scripts;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\bin;.;C:\java;C:\Users\Kushal\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\Kushal\AppData\Local\Yarn\bin;C:\Users\Kushal\AppData\Roaming\npm;C:\Users\Kushal\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: registry.yarnpkg.com. is not in the cert's altnames: DNS:*.iitg.ac.in, DNS:iitg.ac.in
+      at new NodeError (node:internal/errors:393:5)
+      at Object.checkServerIdentity (node:tls:337:12)
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1548:27)
+      at TLSSocket.emit (node:events:513:28)
+      at TLSSocket._finishInit (node:_tls_wrap:952:8)
+      at ssl.onhandshakedone (node:_tls_wrap:733:12)
+
+npm manifest: 
+  {
+    "name": "e-commerce",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "crypto-js": "^4.1.1",
+      "dotenv": "^16.0.2",
+      "express": "^4.18.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.6.0",
+      "nodemon": "^2.0.19",
+      "stripe": "^10.8.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
